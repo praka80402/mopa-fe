@@ -1,0 +1,13 @@
+<svg width="100" height="160" viewBox="0 0 100 160" fill="none" xmlns="http://www.w3.org/2000/svg" style="color: #0B2545">
+  <path d="M10 145 H90 V155 H10 Z" fill="currentColor" />
+  <path d="M20 135 H80 V145 H20 Z" fill="currentColor" />
+  <circle cx="50" cy="115" r="16" stroke="currentColor" strokeWidth="4" />
+  <circle cx="50" cy="115" r="4" fill="currentColor" />
+  <path d="M50 99 V131 M34 115 H66" stroke="currentColor" strokeWidth="2" />
+  <path d="M38 75 C30 75 35 110 38 115 H62 C65 110 70 75 62 75 Z" fill="currentColor" opacity="0.8" />
+  <path d="M22 45 C15 55 30 75 42 75 C35 65 30 45 22 45 Z" fill="currentColor" />
+  <path d="M78 45 C85 55 70 75 58 75 C65 65 70 45 78 45 Z" fill="currentColor" />
+  <path d="M50 25 C30 25 35 75 50 75 C65 75 70 25 50 25 Z" fill="currentColor" />
+  <circle cx="28" cy="127" r="4" fill="currentColor" />
+  <circle cx="72" cy="127" r="4" fill="currentColor" />
+</svg>
