@@ -1,7 +1,7 @@
 import { FileText, FileCode, FileSpreadsheet } from 'lucide-react';
 import React from 'react';
 
-export const API_URL = '';
+export const API_URL = 'http://165.22.216.100:6005';
 
 // Helper to extract YouTube video ID and fetch HQ thumbnail
 export const getYouTubeThumbnail = (url) => {
