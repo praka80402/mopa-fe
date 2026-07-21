@@ -318,14 +318,14 @@ const ChatBot = ({ onOpenLightbox, currentUser }) => {
     <>
       {showPopup && !isChatOpen && (
         <div className="chatbot-popup" onClick={() => setIsChatOpen(true)} style={{ cursor: 'pointer' }}>
-          <span>🤖 I am your <strong>MoPA Bot</strong>!</span>
+          <span>🤖 I am your <strong>Lok Mitra</strong>!</span>
           <button onClick={(e) => { e.stopPropagation(); setShowPopup(false); }} style={{ background: 'none', border: 'none', color: '#64748B', cursor: 'pointer', padding: '2px', marginLeft: '6px', display: 'flex', alignItems: 'center' }}>
             <X size={12} />
           </button>
         </div>
       )}
 
-      <div onClick={() => setIsChatOpen(!isChatOpen)} className="chatbot-trigger" title="MoPA Bot" style={{ padding: '0px' }}>
+      <div onClick={() => setIsChatOpen(!isChatOpen)} className="chatbot-trigger" title="Lok Mitra" style={{ padding: '0px' }}>
         {isChatOpen ? <X size={32} style={{ strokeWidth: 2.5 }} /> : <RobotSvg isSpeaking={isSpeaking} width={72} />}
       </div>
 
@@ -337,7 +337,7 @@ const ChatBot = ({ onOpenLightbox, currentUser }) => {
                 <RobotSvg isSpeaking={isSpeaking} width={42} />
               </div>
               <div style={{ display: 'flex', flexDirection: 'column' }}>
-                <span className="chatbot-header-title" style={{ fontSize: '0.9rem', fontWeight: '700' }}>MoPA Bot</span>
+                <span className="chatbot-header-title" style={{ fontSize: '0.9rem', fontWeight: '700' }}>Lok Mitra</span>
                 <span style={{ fontSize: '0.65rem', opacity: '0.8' }}>{isSpeaking ? 'Speaking...' : 'Online'}</span>
               </div>
             </div>
