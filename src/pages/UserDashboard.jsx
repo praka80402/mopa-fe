@@ -43,7 +43,7 @@ const UserDashboard = ({ currentUser, triggerToast, onOpenLightbox, appLanguage,
     if (activeHeroes.length <= 1) return;
     const interval = setInterval(() => {
       setCurrentHeroIndex((prev) => (prev + 1) % activeHeroes.length);
-    }, 5002);
+    }, 6005);
     return () => clearInterval(interval);
   }, [heroImages]);
 
